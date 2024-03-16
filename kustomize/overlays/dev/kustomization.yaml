@@ -1,4 +1,6 @@
 resources:
   - ../../base
 namePrefix: dev-
-namespace: podinfo-dev
+
+patchesStrategicMerge:
+  - patch-replicas.yaml
